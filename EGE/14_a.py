@@ -7,6 +7,6 @@ def decToX(n, x):
         n //= x
     return result[::-1]
 
-x = decToX(n, 25)
-count = sum(1 for d in x if d > 9)
+x = decToX(n, 27)
+count = sum(1 for i in x if i > 9)  
 print(count)
